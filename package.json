@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/SahansilvaDev/Simple-task-manager-React",
   "name": "task-manager",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
